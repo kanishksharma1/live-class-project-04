@@ -1,0 +1,87 @@
+body{
+    font-family: "poppins";
+}
+.navbar-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.list{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;  
+
+}
+
+.list-item{
+    margin-right: 40px;
+    list-style-type: none;
+}
+.list-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.banner-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-button{
+    position: absolute;
+    right: 100px;
+        -webkit-border-radius: 11;
+        -moz-border-radius: 11;
+        border-radius: 11px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 14px;
+        background: #383CC1;
+        padding: 11px 21px 11px 21px;
+        text-decoration: none;
+        border: 3px solid;
+    }
+    
+      
+      .nav-button:hover {
+        background-image: -webkit-linear-gradient(top, #8d3daf, #872fad);
+        background-image: -moz-linear-gradient(top, #8d3daf, #872fad);
+        background-image: -ms-linear-gradient(top, #8d3daf, #872fad);
+        background-image: -o-linear-gradient(top, #8d3daf, #872fad);
+        background-image: linear-gradient(to bottom, #8d3daf, #872fad);
+        text-decoration: none;
+        cursor: pointer;
+     
+}
+
+.heading-text{
+    font-size: 50px;
+    position: absolute;
+    bottom: 32%;
+    left: 7%;
+    width: 400px;
+    
+}
+
+.description{
+    width: 300px;
+    position: absolute;
+    bottom: 23%;
+    left: 7.5%;
+}
+
+.btn{
+    left: 7%;
+    bottom: 15%;
+    background-color:#383CC1 ;
+    color:#ffffff;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 21px 15px 21px;
+    border-radius: 15px;
+    border: 3px solid;
+ }
